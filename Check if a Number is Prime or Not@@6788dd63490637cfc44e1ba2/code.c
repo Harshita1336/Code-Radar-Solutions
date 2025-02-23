@@ -8,12 +8,12 @@ int main(){
     printf("Not Prime");
     return 0;
     }
-    for (i=2;i*i<=a;i++)[
+    for (i=2;i*i<=a;i++){
         if (a%i==0){
             p = 1;
             break;
         }
-    ]
+    }
     if (p == 0)
     printf("Prime");
     else
